@@ -12,7 +12,7 @@ export default class LocalStorageDelegate implements StorageDelegate {
         {
           name: "a",
           currency: "USD",
-          amount: 10.5,
+          cost: 10.5,
           billingCycle: 1,
           billingCycleUnit: BillingCycleUnit.MONTH,
         },

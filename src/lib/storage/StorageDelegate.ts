@@ -8,7 +8,7 @@ export enum BillingCycleUnit {
 export interface Subscription {
   name: string;
   currency: string;
-  amount: number;
+  cost: number;
   billingCycle: number;
   billingCycleUnit: BillingCycleUnit;
   description?: string;
